@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  background-color: hsl(206, 94%, 87%);
+  color: black;
+  font-weight: 700;
+}
+
+.chosen {
+  border: 1px solid hsl(213, 96%, 18%);
+  background-color: hsl(217, 100%, 97%);
+}
+
+.plans div.chosen {
+  border: 1px solid hsl(213, 96%, 18%);
+  background-color: hsl(217, 100%, 97%);
+}
+
+.indicated {
+  color: hsl(213, 96%, 18%);
+}
+
+#payment-button.end {
+  justify-content: flex-end;
+}
+
+.add-on:has(input[type="checkbox"]:checked) {
+  border: 1px solid hsl(213, 96%, 18%);
+  background-color: hsl(217, 100%, 97%);
+}
+
+#change-plan-dropdown.block {
+  display: block;
+}
